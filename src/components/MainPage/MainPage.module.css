@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  gap: 23px;
+  padding: var(--padding-medium);
+  height: 100%;
+}
+
+.filmContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

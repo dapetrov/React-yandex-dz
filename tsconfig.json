@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "jsx": "react",
+    "useDefineForClassFields": true,
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "types": ["@types/node"],
+    "allowJs": false,
+    "outDir": "dist",
+    "isolatedModules": false,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "preserveSymlinks": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+
+  "include": ["src", "./.eslintrc.js"]
+}

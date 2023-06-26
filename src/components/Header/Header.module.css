@@ -1,0 +1,35 @@
+.header {
+  background-color: var(--secondary-bg-color);
+  height: 84px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-large);
+  font-size: var(--font-size-medium);
+  flex: 0 0 auto;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.header h1 {
+  font-weight: 700;
+  font-size: var(--font-size-big);
+  line-height: 38px;
+  user-select: none;
+}
+.cartItemsBlock {
+  height: 28px;
+  width: 28px;
+  background-color: var(--control-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border-radius-main);
+}
+.link {
+  display: flex;
+  gap: 8px;
+  height: 28px;
+}

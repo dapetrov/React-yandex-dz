@@ -1,0 +1,49 @@
+.container {
+  height: 168px;
+  width: 344px;
+  position: absolute;
+  background-color: var(--white-color);
+  border-radius: var(--border-radius-main);
+  top: 40%;
+  left: 40%;
+  padding: 22px;
+}
+
+.wrapper {
+  z-index: 100000;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #00000080;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--font-size-medium);
+}
+
+.p {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-size: var(--font-size-small);
+}
+
+.buttonYes {
+  width: 51px;
+  height: 40px;
+  border: none;
+  border-radius: var(--border-radius-main);
+  background-color: var(--control-color);
+  margin-right: 8px;
+  color: var(--white-color);
+}
+
+.buttonNo {
+  width: 51px;
+  height: 40px;
+  border: 1px solid var(--control-color);
+  border-radius: var(--border-radius-main);
+  background-color: var(--white-color);
+  color: var(--control-color);
+}

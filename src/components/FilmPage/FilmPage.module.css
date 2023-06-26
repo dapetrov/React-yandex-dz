@@ -1,0 +1,87 @@
+.container {
+  width: 100%;
+  display: flex;
+  gap: 32px;
+  padding: 24px 32px 0px 32px;
+}
+
+.container img {
+  height: 500px;
+  width: 400px;
+  border-radius: var(--border-radius-main);
+  background: black;
+}
+
+.container h2 {
+  font-size: var(--font-size-big);
+  font-weight: 600;
+}
+
+.filmParam p {
+  font-size: var(--font-size-medium);
+}
+
+.filmParam {
+  margin: 24px 0 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filmContainer {
+  width: 100%;
+}
+
+.filmDescription p {
+  margin-top: 16px;
+  font-size: var(--font-size-small);
+}
+
+.commentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 32px;
+}
+.spinner {
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: relative;
+
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-top-color: transparent;
+  border-radius: 100%;
+
+  animation: spin 1s infinite linear;
+
+  position: absolute;
+  top: 46%;
+  left: 50%;
+}
+
+.spinner:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: -6px;
+  left: 3px;
+
+  border: 6px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+
+  transform: rotate(45deg);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,21 @@
+.container {
+  font-size: var(--font-size-big);
+  min-height: 80px;
+  border-radius: var(--border-radius-main);
+  background-color: var(--white-color);
+}
+.container button {
+  padding: 24px 24px 16px 24px;
+  border: none;
+  outline: none;
+  background-color: var(--white-color);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 600;
+}
+.container p {
+  padding: 0px 24px 24px 24px;
+  font-size: var(--font-size-small);
+}

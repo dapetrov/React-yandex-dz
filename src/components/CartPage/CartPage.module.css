@@ -1,0 +1,25 @@
+.container {
+  padding: 24px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--white-color);
+  height: 68px;
+  padding: var(--padding-medium);
+  margin: 0px 32px 24px;
+  font-size: var(--font-size-medium);
+  font-weight: 600;
+  border-radius: var(--border-radius-main);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,42 @@
+.container {
+  height: 168px;
+  width: 100%;
+  padding: var(--padding-medium);
+  background-color: var(--white-color);
+  border-radius: var(--border-radius-main);
+  display: flex;
+}
+
+.container img {
+  height: 120px;
+  width: 100px;
+  border-radius: var(--border-radius-main);
+  background-color: black;
+}
+
+.container span {
+  font-weight: 400;
+  font-style: italic;
+  font-size: var(--font-size-small);
+}
+
+.container a {
+  display: block;
+  color: var(--main-font-color);
+  font-weight: 600;
+  font-size: var(--font-size-medium);
+}
+
+.containerTwo {
+  width: 100%;
+  padding-left: var(--padding-medium);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.controlDeleteWrap {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}

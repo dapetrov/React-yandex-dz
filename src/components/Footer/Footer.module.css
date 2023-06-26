@@ -1,0 +1,11 @@
+.footer {
+  background-color: var(--secondary-bg-color);
+  color: var(--white-color);
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-large);
+  font-size: var(--font-size-medium);
+  flex: 0 0 auto;
+}

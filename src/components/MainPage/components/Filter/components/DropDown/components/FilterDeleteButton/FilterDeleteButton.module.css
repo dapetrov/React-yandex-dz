@@ -1,0 +1,9 @@
+.button {
+  background-color: var(--white-color);
+  border: none;
+  position: absolute;
+  top: 13px;
+  right: 30px;
+
+  z-index: 1;
+}
